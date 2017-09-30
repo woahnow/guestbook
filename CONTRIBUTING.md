@@ -16,8 +16,7 @@ need contributors to follow.
 * To quickly create a feature branch based on master, run `git checkout -b
     add-[name]-[city-name]` where `[city-name]` is the name of your city and 
     `[name]` is your name. Please avoid working directly on the `master` branch.
-* Make commits of logical units.
-* Check for unnecessary whitespace with `git diff --check` before committing.
+* Make commits of logical units, only one change per commit.  Make sure entry has a blank line between it and the previous entry.
 * Make sure your commit messages are in the proper format. Usually, this will just be 
 `Adding [name] from [city-name]` where `[city-name]` is the name of your city and `[name]` is your name.
 
